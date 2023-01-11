@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+html, body, * {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(210, 60%, 98%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container{
+    width: 58%;
+    height: 100%;
+    margin: 3rem auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    color: hsl(219, 12%, 42%);
+    
+   box-shadow:  0 5px 8px 0 hsl(211, 68%, 94%), 0 5px 8px 0  hsl(205, 33%, 90%);
+}
+
+header{
+    display: flex;
+    padding: 0.5rem 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 27%;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+header > p {
+    color: hsl(219, 14%, 63%);
+    cursor: pointer;
+}
+
+.notif_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(219, 85%, 26%);
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 0.2rem ;
+}
+
+.hide-notif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(219, 85%, 26%);
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 0.2rem ;
+    content: '0';
+}
+main {
+    display: grid;
+    grid-template-rows: 100px;
+    gap: 1rem;
+}
+
+.mained  div{
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+.grid-item, .grid-color{
+    display: flex;
+    align-items: center;
+    background-color: hsl(211, 68%, 94%);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.grid-color{
+    background-color: inherit ;
+}
+
+.grid-item > img, .grid-color> img{
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.grid-item span, .grid-color span {
+    font-weight: 800;
+}
+
+.status{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: hsl(1, 90%, 64%);
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.message{
+    width: 88%;
+    padding: 1rem ;
+    border: 2px solid;
+    border-radius: 0.2rem;
+    border-color: hsl(205, 33%, 90%);
+    display: flex;
+    margin-left: 4.5rem;
+    background-color: hsl(210, 60%, 98%);
+}
