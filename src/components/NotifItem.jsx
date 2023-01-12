@@ -4,7 +4,6 @@ export default function NotifItem ({imageUrl, alt, commentName, text, text1, tim
 
     const [hideStatus, setHideStatus] = useState(true);
     const [changeBackground, setChangeBackground] = useState(true);
-    // const [showMessage, setShowMessage] =useState(false);
 
 
     return (
