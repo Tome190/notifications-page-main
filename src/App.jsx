@@ -26,27 +26,27 @@ export default function App() {
            </header>
            <main className={changeBackground? " ": "mained"}>
                 <NotifItem 
-                        imageUrl="/public/avatar-mark-webber.webp"
+                        imageUrl="/avatar-mark-webber.webp"
                         alt = "profile picture of mark webber"
                         commentName = "Mark Webber"
                         text1 ="reacted to your recent post"
                         text= "My first tournament today!"
                         time = "1m ago"
                 />
-                <NotifItem  imageUrl = "/public/avatar-angela-gray.webp"
+                <NotifItem  imageUrl = "/avatar-angela-gray.webp"
                         alt = "profile picture of angela gray"
                         commentName = "Angela Gray"
                         text1 ="followed you"
                         time = "5m ago"
                 />
-                <NotifItem  imageUrl = "/public/avatar-jacob-thompson.webp"
+                <NotifItem  imageUrl = "/avatar-jacob-thompson.webp"
                         alt = "profile picture of jacob thompson"
                         commentName = "Jacob Thompson"
                         text1 ="has joined your group"
                         text= "Chess Club"
                         time = "1 day ago"
                 />
-                <NotifItem  imageUrl = "/public/avatar-rizky-hasanuddin.webp"
+                <NotifItem  imageUrl = "/avatar-rizky-hasanuddin.webp"
                         alt = "profile picture of Rizky Hasanuddin"
                         commentName = "Rizky Hasanuddin"
                         text1 ="sent you a private message"
@@ -59,21 +59,21 @@ export default function App() {
                         I'm already having lots of fun and improving my game.
                     </p>
                 </div>
-                <NotifItem  imageUrl = "/public/avatar-kimberly-smith.webp"
+                <NotifItem  imageUrl = "/avatar-kimberly-smith.webp"
                         alt = "profile picture of kimberly smith"
                         commentName = "Kimber Smith"
                         text1 ="commented on your picture"
                         time = "1 week ago"
                 />
-                <img src="/public/image-chess.webp"  alt="a picture of a girl playing chess"/>
-                <NotifItem  imageUrl = "/public/avatar-nathan-peterson.webp"
+                <img src="/image-chess.webp"  alt="a picture of a girl playing chess"/>
+                <NotifItem  imageUrl = "/avatar-nathan-peterson.webp"
                         alt = "profile picture of nathan peterson"
                         commentName = "Nathan Peterson"
                         text1 ="reacted to your recent post"
                         text= "5 end-game strategies to increase your win rate"
                         time = "2 weeks ago"
                 />
-                <NotifItem  imageUrl = "/public/avatar-anna-kim.webp"
+                <NotifItem  imageUrl = "/avatar-anna-kim.webp"
                         alt = "profile picture of anna kim"
                         commentName = "Anna Kim"
                         text1 ="left the group"
