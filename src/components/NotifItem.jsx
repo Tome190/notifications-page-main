@@ -12,10 +12,11 @@ export default function NotifItem ({imageUrl, alt, commentName, text, text1, tim
             >
             <img src={imageUrl} alt={alt}/>
             <div>
-                <p><span> {commentName}</span> {text1} <span>{text}</span></p>
+                <p><span> {commentName}</span> {text1} <span>{text}</span>
+                    <span className={hideStatus? "status" : ""}></span>
+                </p>
                 <p>{time}</p>
             </div>
-            <div className={hideStatus ? "status" : ""}></div>
         </div>
     )
 } 

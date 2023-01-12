@@ -103,21 +103,29 @@ main {
 
 .grid-item span, .grid-color span {
     font-weight: 800;
+    font-size: 0.8rem;
+    color: hsl(224, 21%, 14%);
+    cursor: pointer;
+}
+
+.grid-item span:hover, .grid-color span:hover{
+    color: hsl(219, 85%, 26%);
 }
 
 main > img{
     position: absolute;
     bottom: 245px;
     right: 25px;
+    cursor: pointer;
 }
 
 .status{
+    display: inline-block;
     width: 8px;
     height: 8px;
     border-radius: 50%;
     background-color: hsl(1, 90%, 64%);
-    margin-bottom: 20px;
-    margin-left: 10px;
+    margin: auto 10px 0;
 }
 
 .message{
@@ -129,4 +137,40 @@ main > img{
     display: flex;
     margin-left: 4.5rem;
     background-color:  hsl(210, 60%, 98%);
+    cursor: pointer;
+}
+
+.message:hover{
+    background-color: hsl(205, 33%, 90%);
+}
+
+
+@media only screen and (max-width: 380px) {
+
+    .container{
+        margin: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    header{
+        padding: 0.2rem 0;
+        margin-bottom: 0.5rem;
+    }
+
+    header > div{
+        width: 55%;
+    }
+
+    main {
+        font-size: 0.8rem;
+    }
+    .message{
+        width: inherit;
+        padding: 0.8rem;
+    }
+    main > img{
+        bottom: 245px;
+        right: 10px;
+    }
 }
